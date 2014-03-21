@@ -1,0 +1,19 @@
+{
+  "name": "semaver",
+  "version": "0.0.2",
+  "description": "Lock server in Node.js. Based on socket.io.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tart/semaver.git"
+  },
+  "author": "Armagan Amcalar <armagan.amcalar@startupkitchen.co>",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/tart/semaver/issues"
+  },
+  "homepage": "https://github.com/tart/semaver",
+  "dependencies": {
+    "cote": "~0.4.6"
+  }
+}
