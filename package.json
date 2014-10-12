@@ -1,6 +1,6 @@
 {
   "name": "semaver",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Lock server in Node.js. Based on socket.io.",
   "main": "index.js",
   "repository": {
