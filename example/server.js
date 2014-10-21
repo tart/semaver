@@ -1,1 +1,1 @@
-require('../lib/server').init();
+require('../lib/server').init(process.argv[2] || 'semaver example');

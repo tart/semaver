@@ -1,7 +1,8 @@
 var client = require('../lib/client');
-var id = process.argv[2];
+var key = process.argv[2] || 'semaver example';
+var id = process.argv[3] || 1;
 
-client.connect(function() {
+client.connect(key, function() {
     client.acquire(id, function() {
         console.log('obtained lock', id);
 
